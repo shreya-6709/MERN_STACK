@@ -1,0 +1,33 @@
+p{
+    font-family:monospace;
+}
+.data{
+    font-size: x-large;
+}
+#source{
+    font-size: x-large;
+}
+table,th,td{
+    border-style: inset;
+
+}
+table td{
+    color:cadetblue;
+}
+b{
+    color:chocolate;
+
+}
+li{
+    font-style:italic;
+    font-weight:lighter;
+    background-color:bisque;
+    text-align:justify;
+    width:fit-content;
+    background:linear-gradient(45deg,orange,red,purple);
+
+}
+*{
+    background:linear-gradient(45deg,aqua);
+
+}

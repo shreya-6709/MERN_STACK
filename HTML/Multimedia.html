@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Workflow & Multimedia Reference</title>
+    <link rel="stylesheet" href="../CSS/change.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+        
+        <h1>MERN Workflow Reference</h1>
+        <p style="text-align: center; color: var(--text-secondary);">Visualize and listen to the core concepts of the full-stack MERN flow.</p>
+
+        <div class="media-container">
+            <div style="width: 100%; text-align: center;">
+                <h2>MERN Stack Video Guide (with Audio Sync)</h2>
+                <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">
+                    Press Play on the video below. The slides will advance automatically, synchronized with the voice narration.
+                </p>
+                <div style="display: flex; justify-content: center; position: relative;">
+                    <!-- Video element playing MP4 -->
+                    <video id="mernVideo" controls style="width: 100%; max-width: 640px; border-radius: 16px; border: 1px solid var(--border-glass); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);">
+                        <source src="files/mern_workflow.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                    <!-- Audio element with voiceover, hidden but synchronized via JS -->
+                    <audio id="mernAudio">
+                        <source src="files/mern_workflow.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+
+            <div style="width: 100%; text-align: center; border-top: 1px solid var(--border-glass); padding-top: 2rem; margin-top: 1rem;">
+                <h2>Static Workflow Diagram</h2>
+                <div style="display: flex; justify-content: center; margin-top: 1.5rem;">
+                    <img src="files/mern_stack_workflow.jpg" alt="MERN Stack Workflow Diagram" style="max-width: 100%; max-height: 400px; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

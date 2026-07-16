@@ -1,0 +1,12 @@
+form{
+    margin:0.3cm,0.2cm,0.5cm,0.1cm;
+    border-style: groove;
+    border-width: 0.6cm;
+    border-color:chocolate;
+    border-radius:20px;
+}
+label{
+    position:absolute;  /*#relative,absolute*/
+    left:2cm;
+
+}
