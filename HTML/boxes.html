@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boxes</title>
+    <title>Move Box</title>
     <link rel="stylesheet" href="/CSS/flex.css">
 </head>
 <body>
-    <div class="container">
-        <div class="box">Apple</div>
-        <div class="box">Guava</div>
-        <div class="box">Mango</div>
-        <div class="box">Grape</div>
-    </div>
+
+    <div id="box">
+
+    <button onclick="moveLeft()">Left</button>
+    <button onclick="moveRight()">Right</button>
+    <button onclick="moveTop()">Top</button>
+    <button onclick="moveBottom()">Bottom</button>
+
+    <script src="/JS/moves.js"></script>
+
 </body>
 </html>

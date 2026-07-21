@@ -1,13 +1,15 @@
-.container{
-    display:flex;
-    background-color: grey;
+#box{
+    width:100px;
+    height:100px;
+    background-color:aqua;
+    position:relative;
+    left:0;
+    top:0;
+    text-align:center;
+    padding-top:15px;
+    border:2px solid black;
 }
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: greenyellow;
-    color: white;
-    text-align: center;
-    margin: 10px;
-    line-height: 100px;
+
+button{
+    margin:3px;
 }

@@ -3,61 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MERN Form Integration</title>
-    <link rel="stylesheet" href="../CSS/Position.css">
+    <title>Student Registration Form</title>
 </head>
 <body>
-    <div>
-        <heade>
-            <h1>Forms</h1>
-    </header>
-        <main>
-        <form>
-            
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Shreya"><br>
-        
 
-            
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" placeholder="bshreya2@gmail.com"><br>
-            
+    <h1>Student Registration Form</h1>
 
-         
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="1234"><br>
-        
+    <form>
 
-            
-                <label for="phone">Phone Number:</label>
-                <input type="phone no" id="phone" placeholder="98889933344"><br>
-            
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter Name">
+        <br><br>
 
-            
-                <label>Gender:</label>
-                <input type="radio" name="gender" value="male"> Male
-                <input type="radio" name="gender" value="female"> Female <br>
-            
-                <label>Qualification:</label>
-                <input type="checkbox"> 10<sup>th</sup>
-                <input type="checkbox"> 12<sup>th</sup>
-                <input type="checkbox"> Diploma
-                <input type="checkbox"> Bachelors
-                <input type="checkbox"> Masters
-                <input type="checkbox"> Doctorate<br>
-            
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter Email">
+        <br><br>
 
-          
-                <label for="dob">Date of Birth:</label>
-                <input type="datetime-local" id="dob"><br>
-            
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Enter Password">
+        <br><br>
 
-            
-                <label for="profile-img">Profile Image:</label>
-                <input type="file" id="profile-img"><br>
-            
-            <button type="submit">Submit Data</button>
-        </form>
-    </div>
+        <label>Phone Number:</label>
+        <input type="tel" id="phone" placeholder="9876543210">
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="Male">Male
+
+        <input type="radio" name="gender" value="Female">Female
+
+        <input type="radio" name="gender" value="Prefer not to say">
+        Prefer not to say
+        <br><br>
+
+        <label>Qualification:</label>
+
+        <input type="checkbox" class="qualification" value="10th">10<sup>th</sup>
+
+        <input type="checkbox" class="qualification" value="12th">12<sup>th</sup>
+
+        <input type="checkbox" class="qualification" value="Diploma">Diploma
+
+        <input type="checkbox" class="qualification" value="Bachelors">Bachelors
+
+        <input type="checkbox" class="qualification" value="Masters">Masters
+
+        <input type="checkbox" class="qualification" value="Doctorate">Doctorate
+
+        <br><br>
+
+        <label>DOB:</label>
+        <input type="date" id="dob">
+        <br><br>
+
+        <label>Upload Image:</label>
+        <input type="file" id="image" accept="image/*">
+        <br><br>
+
+        <button type="button" onclick="show()">Submit</button>
+
+    </form>
+
+    <hr>
+
+    <div id="result"></div>
+
+    <script src="../JS/script.js"></script>
+
 </body>
 </html>
