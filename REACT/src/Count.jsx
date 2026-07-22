@@ -19,9 +19,9 @@ function Count() {
 
         <div className="counting">{count}</div>
 
-        <button onClick={() => setCount(count + 1)}>+1</button>
+        <button onDoubleClick={() => setCount(count + 1)}>+1</button>
 
-        <button onClick={() => setCount(count - 1)}>-1</button>
+        <button onDoubleClick={() => setCount(count - 1)}>-1</button>
 
         <h2>Phone: {mobile ? "Android" : "iPhone"}</h2>
 
